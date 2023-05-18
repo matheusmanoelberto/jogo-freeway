@@ -5,6 +5,7 @@ let imagemDoAtor;
 let imagemDoCarro;
 let imagemDoCarro2;
 let imagemDoCarro3;
+let imagemCarros;
 
 function preload(){
     imagemDaEstrada = loadImage("imagens/estrada.png")
@@ -12,4 +13,5 @@ function preload(){
     imagemDoCarro = loadImage("imagens/carro-1.png")
     imagemDoCarro2 = loadImage("imagens/carro-2.png")
     imagemDoCarro3 = loadImage("imagens/carro-3.png")
+    imagemCarros = [imagemDoCarro, imagemDoCarro2,imagemDoCarro3]
   }
